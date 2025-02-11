@@ -1,10 +1,5 @@
 import tkinter as tk
-import os
-import tkinter as tk
-import subprocess as sub
 from PIL import Image, ImageTk, ImageDraw, ImageOps
-import os
-import importlib
 
 # ★------------ 定数エリア ------------★
 

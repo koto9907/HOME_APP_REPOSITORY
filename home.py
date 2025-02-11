@@ -1,10 +1,8 @@
 import tkinter as tk
 import os
-import subprocess as sub
 from PIL import Image, ImageTk
 import importlib
 import sys
-import importlib
 import common.util as util
 
 

@@ -1,14 +1,9 @@
-import sys
 import tkinter as tk
 from tkinter import ttk
 import time
-import os
-from datetime import datetime, timedelta
-import time
+from datetime import datetime
 from plyer import notification
-from PIL import Image
 import threading
-import atexit
 import common.util as util
 
 
