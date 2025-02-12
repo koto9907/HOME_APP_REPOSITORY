@@ -3,9 +3,11 @@ from PIL import Image, ImageTk, ImageDraw, ImageOps
 
 # ★------------ 定数エリア ------------★
 
-
+# ------------- 共通 -------------
 WIDTH_FRAME = 640
 HEIGH_FRAMET = 640
+
+CREATE_NEW_FRAME = "create_new_frame"  # フレーム作成関数名
 
 # ------------- ホーム画面 -------------
 TITLE_HOME = "HOME"  # GUIのタイトル
@@ -13,16 +15,22 @@ PATH_IMG_HOME = "home_img"  # ホーム画像関連のフォルダ名
 IMG_BACKGROUND_HOME = "home_bg.png"  # ホームのBG画像名
 
 
-# ------------- 各アプリ -------------
+# ★------------ 各アプリ ------------★
+# ------------- automation -------------
 NAME_AUTOMARION = "automation"  # アプリ名
 APP_AUTOMATION = f"{NAME_AUTOMARION}.{NAME_AUTOMARION}"  # モジュール名
 ICON_AUTOMATION = f"{NAME_AUTOMARION}_icon.png"  # アプリアイコン画像名
 
+# ------------- balloon -------------
 NAME_BALLOON = "balloon"  # アプリ名
 APP_BALLOON = f"{NAME_BALLOON}.{NAME_BALLOON}"  # モジュール名
 ICON_BALLOON = f"{NAME_BALLOON}_icon.png"  # アプリアイコン画像名
 
-CREATE_NEW_FRAME = "create_new_frame"
+
+# ------------- tarot -------------
+NAME_TAROT = "tarot"  # アプリ名
+APP_TAROT = f"{NAME_TAROT}.{NAME_TAROT}"  # モジュール名
+ICON_TAROT = f"{NAME_TAROT}_icon.png"  # アプリアイコン画像名
 
 # ------------- 関数エリア -------------
 

@@ -8,6 +8,11 @@ import common.util as util
 
 
 def create_new_frame(container_frame):
+    width = container_frame.winfo_width()
+    height = container_frame.winfo_height()
+    print(f"Frame width: {width}")
+    print(f"Frame height: {height}")
+
     data = []  # テーブル表示データ
     COLUMNS_HEADER = ["動作", "X座標", "Y座標", "間隔"]  # テーブルヘッダー
     PATH_FOLDER = rf"{os.path.dirname(__file__)}\memory"
